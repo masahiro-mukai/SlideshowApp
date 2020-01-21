@@ -13,6 +13,11 @@
 		066A069423D466F70065E5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066A069223D466F70065E5AA /* Main.storyboard */; };
 		066A069623D466F80065E5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066A069523D466F80065E5AA /* Assets.xcassets */; };
 		066A069923D466F80065E5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066A069723D466F80065E5AA /* LaunchScreen.storyboard */; };
+		066A06A323D46AEC0065E5AA /* sample1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 066A06A223D46AEC0065E5AA /* sample1.jpeg */; };
+		066A06A523D46B5D0065E5AA /* sample2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 066A06A423D46B5D0065E5AA /* sample2.jpeg */; };
+		066A06A723D46C3C0065E5AA /* sample3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 066A06A623D46C3C0065E5AA /* sample3.jpeg */; };
+		066A06A923D46C7A0065E5AA /* sample4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 066A06A823D46C7A0065E5AA /* sample4.jpeg */; };
+		066A06AB23D770950065E5AA /* ExpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066A06AA23D770950065E5AA /* ExpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		066A069523D466F80065E5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		066A069823D466F80065E5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		066A069A23D466F80065E5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066A06A223D46AEC0065E5AA /* sample1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpeg; sourceTree = "<group>"; };
+		066A06A423D46B5D0065E5AA /* sample2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpeg; sourceTree = "<group>"; };
+		066A06A623D46C3C0065E5AA /* sample3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample3.jpeg; sourceTree = "<group>"; };
+		066A06A823D46C7A0065E5AA /* sample4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample4.jpeg; sourceTree = "<group>"; };
+		066A06AA23D770950065E5AA /* ExpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		066A068023D466F70065E5AA = {
 			isa = PBXGroup;
 			children = (
+				066A06A123D469A00065E5AA /* Image */,
 				066A068B23D466F70065E5AA /* SlideshowApp */,
 				066A068A23D466F70065E5AA /* Products */,
 			);
@@ -60,11 +71,23 @@
 				066A068E23D466F70065E5AA /* SceneDelegate.swift */,
 				066A069023D466F70065E5AA /* ViewController.swift */,
 				066A069223D466F70065E5AA /* Main.storyboard */,
+				066A06AA23D770950065E5AA /* ExpViewController.swift */,
 				066A069523D466F80065E5AA /* Assets.xcassets */,
 				066A069723D466F80065E5AA /* LaunchScreen.storyboard */,
 				066A069A23D466F80065E5AA /* Info.plist */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		066A06A123D469A00065E5AA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				066A06A223D46AEC0065E5AA /* sample1.jpeg */,
+				066A06A423D46B5D0065E5AA /* sample2.jpeg */,
+				066A06A623D46C3C0065E5AA /* sample3.jpeg */,
+				066A06A823D46C7A0065E5AA /* sample4.jpeg */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +149,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				066A069923D466F80065E5AA /* LaunchScreen.storyboard in Resources */,
+				066A06A923D46C7A0065E5AA /* sample4.jpeg in Resources */,
+				066A06A523D46B5D0065E5AA /* sample2.jpeg in Resources */,
+				066A06A323D46AEC0065E5AA /* sample1.jpeg in Resources */,
 				066A069623D466F80065E5AA /* Assets.xcassets in Resources */,
 				066A069423D466F70065E5AA /* Main.storyboard in Resources */,
+				066A06A723D46C3C0065E5AA /* sample3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +167,7 @@
 			files = (
 				066A069123D466F70065E5AA /* ViewController.swift in Sources */,
 				066A068D23D466F70065E5AA /* AppDelegate.swift in Sources */,
+				066A06AB23D770950065E5AA /* ExpViewController.swift in Sources */,
 				066A068F23D466F70065E5AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
